@@ -71,7 +71,7 @@ document.getElementById('PhotoSpace3').src = 'images/141601s_chip_173.png';
 }
 
 document.getElementById("btn16").onclick = function() {
-document.getElementById('PhotoSpace2').src = 'images/141601s_belt_186ribon01.png';
+document.getElementById('PhotoSpace2').src = 'images/141601s_belt_183ribon01.png';
 document.getElementById('PhotoSpace3').src = 'images/141601s_chip_183.png';
 }
 
