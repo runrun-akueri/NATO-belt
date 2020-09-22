@@ -1,0 +1,79 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, a, div, iframe, footer, dd {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	display: inline-block;
+	padding: 10px;
+}
+
+.watch-wrapper a:target {
+	border: 2px solid #000000;
+}
+
+.sub {
+	display: flex;
+}
+
+.belt-left {
+	position: relative;
+}
+
+.bijou {
+	position: absolute;
+	z-index: 10;
+	height: 300px;
+}
+
+.beltchg {
+	position: relative;
+}
+
+#PhotoSpace {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 300px;
+}
+
+#PhotoSpace2 {
+	height: 300px;
+	position: absolute;
+}
+
+.belt-left {
+	height: 300px;
+
+}
+
+.watchbtn {
+	height: 100px;
+}
+
+.watch-wrapper {
+	padding-left: 180px;
+}
+
+.watch-wrapper p {
+	text-align: center;
+	font-size: 18px;
+}
+
+.belt-btn {
+	height: 80px;
+	margin-right: 5px;
+}
+
+.belt-wrapper {
+	width:min(520px);
+}
+
+.belt-wrapper p {
+	text-align: center;
+	font-size: 18px;
+}
