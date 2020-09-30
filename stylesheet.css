@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6, p, a, div, iframe, footer, dd {
   padding: 0;
 }
 
+
 a {
 	display: inline-block;
 	padding: 10px;
@@ -64,9 +65,12 @@ a {
 	font-size: 18px;
 }
 
+
+
 .belt-btn {
 	height: 80px;
 	margin-right: 5px;
+	
 }
 
 .belt-wrapper {
@@ -76,4 +80,16 @@ a {
 .belt-wrapper p {
 	text-align: center;
 	font-size: 18px;
+}
+
+.belt-a:focus {
+opacity: 0.5;
+}
+
+.secret-btn {
+	display: none;
+}
+
+.watch-opacity {
+	opacity: 0.5;
 }
